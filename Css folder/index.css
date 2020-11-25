@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa';font-size: 22px;
+  border: 0;
+
+}
+
+
+nav {
+  background: white;
+  padding: 10px 40px 10px 70px;
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+nav ul li.logo {
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+nav ul div.items {
+  padding: 0 25px;
+  display: inline-flex;
+}
+nav ul div.items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  padding: 0 12px;
+}
+
+nav ul div.items a:hover {
+  color: gray;
+}
+
+nav ul .search-icn {
+  height: 40px;
+  width: 240px;
+  background: #f2f2f2;
+  display: flex;
+  border-radius: 5px;
+}
+nav ul .search-icn input{
+  height: 100%;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 5px 0 0 5px;
+  font-size: 18px;
+  border: 1px solid #cccccc;
+  border-right: none;
+}
+
+
+
+nav ul .search-icn .icon {
+  height: 100%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+nav ul .search-icn .icon:hover {
+  background: lightgray;
+}
+
+nav ul .search-icn .icon span{
+  color: #222222;
+  font-size: 18px;
+}
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/foton/Klda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.parallaxherr {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/foton/herr.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.parallaxsport {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/foton/sport.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.parallaxdam {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/foton/Kläderindex.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.parallaxutrustning {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/foton/frilufs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.middletext {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  border: 10px solid #cccccc;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
+}
+.middletextdown {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  border: 10px solid #cccccc;
+  border-left: none;
+  border-right: none;
+}
+.middletextdown2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 400px;
+
+}
+.middletextherr {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 30px;
+
+}
+ a {
+  
+  color: black;
+
+}
+.column {
+  float: left;
+  width: 16.6655%;
+  padding: 5px;
+  border: 5px solid #cccccc;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #d9d9d9;
+}
+.main-content {
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #d9d9d9;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.galleryframe {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #333;
+  color: #d9d9d9;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-image:hover {
+  opacity: .3;
+}
+
+.textandpicture {
+  display:flex;
+  padding: 1rem;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.texten {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
